@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.nav{
+    display: flex;
+    gap:1rem;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.footer{
+    margin: 1rem auto;
+    text-align: center;
+}

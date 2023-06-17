@@ -1,0 +1,22 @@
+.container {
+  margin-bottom: 100px;
+}
+.container h3 {
+  font-size: 1.5rem;
+  color: #53c60b;
+  margin: 2rem 0;
+}
+.container ul {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+.container ul li {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 30px;
+}
+.container ul li:before {
+  content: "• ";
+  color: #53c60b;
+}

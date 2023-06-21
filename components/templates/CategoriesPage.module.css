@@ -1,0 +1,42 @@
+.container{
+    margin-bottom: 100px;
+}
+.container >h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom:3px solid rgb(83, 198, 11);
+    display: inline-block;
+    margin: 2rem 0 3rem;
+}
+.select{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    margin-bottom: 3rem;
+}
+.select select{
+    padding: .7rem 1.5rem;
+    background-color:white;
+    color:rgb(83, 198, 11);
+    box-shadow:rgba(83, 198, 11,.3) 0 2px 6px 0;
+    border:none;
+    border-radius:.5rem;
+    cursor: pointer;
+}
+.select button{
+    background-color:rgb(83, 198, 11);
+    color:white;
+    border:none;
+    border-radius:.5rem;
+    box-shadow:rgba(0,0,0,.3) 0 2px 6px 0;
+    padding: .7rem 1.5rem;
+    cursor:pointer;
+}
+.cardWrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:3rem 2rem;
+}
+.subContainer{
+    text-align:center;
+}

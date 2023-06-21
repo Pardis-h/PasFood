@@ -1,5 +1,6 @@
 .card{
-    max-width:fit-content;
+    max-width:500px;
+    /* max-width:fit-content; */
     min-width: 100%;
     overflow: hidden;
     padding: 1rem 1rem 1.5rem;

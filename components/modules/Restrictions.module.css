@@ -12,3 +12,8 @@
     font-weight: 500;
     line-height: 30px;
 }
+@media screen and (max-width:786px) {
+    .container{
+        margin:100px 0
+    }
+}

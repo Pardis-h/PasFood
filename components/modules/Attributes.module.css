@@ -21,3 +21,18 @@
     rgba(0, 0, 0, 0.08) 0 30px 60px -30px,
     rgba(10, 64, 14, 0.1) 0 -2px 6px 0 inset;
 }
+
+@media screen and (max-width:991px) {
+  .container h3 {
+    text-align: center;
+  }
+  .container ul{
+      flex-wrap:wrap;
+      gap: 2rem;
+  }
+  .container ul li{
+    flex: 1;
+    width: auto;
+    min-width: 45%;
+  }
+}

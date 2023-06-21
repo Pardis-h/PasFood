@@ -4,3 +4,12 @@
     justify-content: space-between;
     margin-bottom: 100px;
 }
+@media screen and (max-width:991px) {
+    .container{
+        flex-wrap:wrap;
+    }
+    .container svg{
+        flex:1;
+        min-width: 45%
+    }
+}

@@ -1,0 +1,123 @@
+.container{
+    margin-bottom: 150px;
+}
+.container >h2{
+    border-bottom:3px solid #53c60b;
+    line-height: 30px;
+    display: inline-block;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+.banner{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap:2rem;
+    margin-bottom: 3rem;
+}
+.banner img{
+    flex: 300px;
+    max-width:300px;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+.banner >div{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-self:start;
+    gap:1.5rem;
+}
+.banner h3{
+    color: #53c60b;
+    font-size: 1.4rem;
+    line-height: 30px;
+    font-weight:600;
+}
+.banner span{
+    color: grey;
+    display: flex;
+    align-items: center;
+}
+.banner >div >div{
+    display: flex;
+    align-items: center;
+}
+.introduction{
+    font-size: 1.1rem;
+    line-height: 30px;
+    font-weight:500;
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+.details{
+    margin-bottom: 3rem;
+}
+.details h4,.recipe h4{
+    color:#53c60b;
+    font-size: 1.4rem;
+    line-height: 30px;
+    font-weight:600;
+    margin-bottom: 1.5rem;
+}
+.details ul li{
+margin-bottom: 1rem;
+}
+.details ul li:before{
+    content:'•  ';
+    color:#53c60b;
+}
+.details ul li span:first-of-type{
+    font-weight:500;
+}
+.details ul li span:last-of-type{
+    color:grey;
+}
+.recipe{
+    margin-bottom: 4rem;
+}
+.recipe ul li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+.recipe ul li.odd{
+    background-color:rgb(83, 199, 10,.3);
+}
+.recipe ul li.even{
+    background-color:rgb(83, 199, 10,.6);
+}
+.recipe ul li span{
+    display: inline-block;
+    font-size:1.8rem;
+}
+.recipe ul li p{
+    font-size: 1rem;
+    line-height: 24px;
+}
+.container button{
+    width: 100%;
+    background-color: #53c60b;
+    color:white;
+    border:none;
+    border-radius:.5rem;
+    padding: 1rem 2rem;
+    font-size:1.2rem;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,.5) 0 2px 6px 0;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        margin-bottom: 100px;
+    }
+    .container >h2{
+        margin:1rem 0 2rem;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}

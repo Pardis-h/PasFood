@@ -6,6 +6,11 @@
     margin: 0 auto;
     padding: 1rem;
 }
+.header >a{
+    color:#53c60b;
+    font-size:1.2rem;
+    font-weight:600
+}
 .nav{
     display: flex;
     gap:1rem;
@@ -19,5 +24,6 @@
     margin: 0 auto;
     padding: 1rem 0;
     text-align: center;
-    background-color:chartreuse;
+    background-color:#53c60b;
+    color: white;
 }

@@ -12,3 +12,9 @@
     font-weight: 500;
     line-height: 30px;
 }
+
+@media screen and (max-width:991px) {
+    .container h3,.container p {
+      text-align: center;
+    }
+}

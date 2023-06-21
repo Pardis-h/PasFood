@@ -40,3 +40,21 @@
 .subContainer{
     text-align:center;
 }
+.subContainer img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:991px) {
+    .cardWrapper{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .cardWrapper{
+        grid-template-columns: auto;
+    }
+    .select{
+        flex-wrap: wrap;
+    }
+}

@@ -46,11 +46,10 @@
   border-radius: 8px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 991px) {
   .container .rightSide {
     max-width: 100%;
   }
-
   .container .rightSide img {
     max-width: 100%;
     object-fit: cover;
@@ -62,9 +61,8 @@
   .container .leftSide span {
     text-align: center;
   }
-}
-@media screen and (max-width: 991px) {
   .container {
     flex-direction: column-reverse;
   }
 }
+

@@ -7,24 +7,18 @@ function Menu({ data }) {
 export default Menu;
 
 export async function getStaticProps() {
-  try {
-    const res = await fetch(`${process.env.BASE_URL}/data`);
-    const data = await res.json();
+  const res = await fetch(`${process.env.BASE_URL}/data`);
+  const data = await res.json();
 
-    if (!data) {
-      return {
-        notFound: true,
-      };
-    }
-
-    return {
-      props: {
-        data,
-      },
-    };
-  } catch {
+  if (!data) {
     return {
       notFound: true,
     };
   }
+
+  return {
+    props: {
+      data,
+    },
+  };
 }

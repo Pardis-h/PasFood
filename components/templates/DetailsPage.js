@@ -2,8 +2,8 @@ import styles from "./DetailsPage.module.css";
 import Location from "../icons/Location";
 import Dollar from "../icons/Dollar";
 
-function DetailsPage({ data }) {
-  const { name, details, id, discount, price, introduction, ingredients, recipe } = data;
+function DetailsPage(props) {
+  const { name, details, id, discount, price, introduction, ingredients, recipe } = props;
 
   return (
     <div className={styles.container}>

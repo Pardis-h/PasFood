@@ -46,7 +46,7 @@
   border-radius: 8px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
   .container .rightSide {
     max-width: 100%;
   }

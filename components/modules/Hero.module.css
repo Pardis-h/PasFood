@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    max-width: 50%;
 }
 .container .leftSide h2{
     font-size: 1.5rem;
@@ -52,6 +53,7 @@
     }
     .container .leftSide{
         align-items: center;
+        max-width: 100%;
     }
     .container .leftSide span{
         text-align:center;

@@ -21,6 +21,7 @@ function DetailsPage({ data }) {
               <Dollar />
               {discount ? (price * (100 - discount)) / 100 : price} $
             </div>
+            {discount ? <span className={styles.discount}>{discount}% OFF</span> : null}
           </div>
         </div>
         <p className={styles.introduction}>{introduction}</p>

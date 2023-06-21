@@ -18,7 +18,7 @@
     position: absolute;
     inset: 20px;
     z-index:20;
-    background-color: red;
+    background-color: #ed4133;
     color:white;
     padding: .4rem;
     border-radius: .3rem;
@@ -49,7 +49,7 @@
     align-items: center;
 }
 .cardBody .priceOffer{
-    color: red;
+    color: #ed4133;
 }
 .cardBody button{
     width: 100%;
